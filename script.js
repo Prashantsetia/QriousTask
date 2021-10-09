@@ -14,14 +14,14 @@ vid1.onpause = () => {
 };
 
 function fun2() {
-  vid1.setAttribute("src", "clip2.mp4");
+  vid1.setAttribute("src", "clip3.mp4");
   over.style.zIndex = 0;
   vid1.style.filter = "brightness(100%)";
   vid1.play();
 }
 
 function fun3() {
-  vid1.setAttribute("src", "clip3.mp4");
+  vid1.setAttribute("src", "clip2.mp4");
   over2.style.zIndex = 0;
   vid1.style.filter = "brightness(100%)";
   vid1.play();
