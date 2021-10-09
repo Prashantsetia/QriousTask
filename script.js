@@ -3,11 +3,11 @@ var over = document.getElementById("over");
 var over2 = document.getElementById("over2");
 vid1.onpause = () => {
   if (vid1.getAttribute("src") === "clip1.mp4") {
-    console.log("FUCK");
+    console.log("one");
     vid1.style.filter = "brightness(20%)";
     over.style.zIndex = 1;
   } else {
-    console.log("FUCK else");
+    console.log("two");
     vid1.style.filter = "brightness(20%)";
     over2.style.zIndex = 1;
   }
