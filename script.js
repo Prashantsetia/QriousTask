@@ -31,7 +31,7 @@ function fun3() {
 
 
 extra = ()=>{
-  head.innerHTML = "This Option Is Disabled For Now !!";
+  head.innerHTML = "This Option Has Been Disabled For Now !!";
   head.style.color = "red";
 
   setTimeout(() => {
