@@ -9,12 +9,12 @@
 </head>
 <body>
     <div class="cont">
-        <h1 style="text-align: center;font-size: 40px;font-family: sans-serif;">Pause The Video To See The Magic</h1>
+        <h1 style="text-align: center;font-size: 40px;font-family: sans-serif;" id="head">Pause The Video To See The Magic</h1>
         <div class="op2 setall" id="over2">
             <div class="btngroup">
                 <button type="submit" onclick="fun3()" class="b1"></button>
                 <p class="tooltip1">Home</p>
-                <button type="submit" onclick="fun3()" class="b2"></button>
+                <button type="submit" onclick="extra()" class="b2"></button>
                 <p class="tooltip2">Photography</p>
             </div>
         </div>
@@ -22,12 +22,12 @@
             <div class="btngroup">
                 <button type="submit" onclick="fun2()" class="b1"></button>
                 <p class="tooltip1">Display</p>
-                <button type="submit" onclick="fun2()" class="b2"></button>
+                <button type="submit" onclick="extra()" class="b2"></button>
                 <p class="tooltip2">Photography</p>
             </div>
         </div>
         <div class="vidbox setall">
-            <video src="clip1.mp4" controls id="vid1" style="width: 100%;border-radius: 30px" autoplay muted></video>
+            <video src="clip1.mp4" controls id="vidplayer" style="width: 100%;border-radius: 30px" autoplay muted></video>
         </div>
     </div>
 
